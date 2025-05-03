@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+    background-image: url("pexels-pixabay-531880.jpg");
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.15);
+    display: block;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+.myimage-frame {
+    display: block;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+.myimage {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.main-frame {
+    text-align: center;
+}
+.main-uiapp {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    color: rgba(0, 0, 0, 0.4);
+    max-width: 250px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.appimg {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: transparent;
+}
+.myimg-app {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.Button {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
